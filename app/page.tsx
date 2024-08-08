@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import FeaturedProducts from './components/FeaturedProducts'
 import CategoriesSection from './components/CategoriesSection'
 import CelebritySection from './components/CelebritySection'
+import PromotionsSection from './components/PromotionsSection'
 
 export default function Home() {
   return (
@@ -75,6 +76,7 @@ export default function Home() {
         {/* End of Hero Section */}
         <FeaturedProducts/>
         <CelebritySection />
+        <PromotionsSection />
         <CategoriesSection />
         
       </div>
