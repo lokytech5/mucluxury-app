@@ -11,7 +11,7 @@ export default function Home() {
         
         {/* Start of Navbar */}
         <div className="fixed top-0 left-0 right-0 z-50 p-2"> {/* Adjust padding to reduce height */}
-          <div className="navbar bg-accent rounded-full shadow-lg mx-auto flex items-center justify-between">
+          <div className="navbar bg-primary rounded-full shadow-lg mx-auto flex items-center justify-between">
             <label htmlFor="my-drawer-3" className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
@@ -47,7 +47,7 @@ export default function Home() {
               </div>
               <div className="dropdown dropdown-end">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                  <div className="w-10 rounded-full">
+                  <div className="w-10 rounded-full bg-yellow-300">
                     <img alt="Profile" src="/images/avatar.svg" />
                   </div>
                 </div>

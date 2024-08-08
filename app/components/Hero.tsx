@@ -15,10 +15,10 @@ const Hero = () => {
           quality={100} 
         />
       </div>
-      <div className="relative z-10 flex flex-col items-start p-8 md:p-12 lg:p-24 space-y-8 max-w-lg md:max-w-xl lg:max-w-2xl">
+      <div className="relative z-10 flex flex-col items-start p-8 pt-24 md:pt-12 lg:pt-24 lg:p-24 space-y-8 max-w-lg md:max-w-xl lg:max-w-2xl">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight drop-shadow-md animate-fade-in">
           Discover the New <br />
-          <span className="text-yellow-500">Autumn Collection</span>
+          <span className="text-yellow-500">Mucluxury Collection</span>
         </h1>
         <p className="mt-4 text-lg md:text-xl drop-shadow-md animate-fade-in">
           Elevate your style with our <span className="font-bold">latest arrivals</span>. Trendy designs, 
