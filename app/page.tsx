@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Hero from './components/Hero'
 import FeaturedProducts from './components/FeaturedProducts'
 import CategoriesSection from './components/CategoriesSection'
+import CelebritySection from './components/CelebritySection'
 
 export default function Home() {
   return (
@@ -73,6 +74,7 @@ export default function Home() {
         <Hero/>
         {/* End of Hero Section */}
         <FeaturedProducts/>
+        <CelebritySection />
         <CategoriesSection />
         
       </div>

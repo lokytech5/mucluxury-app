@@ -1,5 +1,3 @@
-// components/CategoriesSection.tsx
-
 import React from 'react';
 import CategoryCard from './CategoryCard';
 

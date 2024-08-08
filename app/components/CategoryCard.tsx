@@ -1,15 +1,13 @@
-// components/CategoryCard.tsx
-
 import React from 'react';
 import Image from 'next/image';
 
-interface CategoryCardProps {
+interface Props {
     title: string;
     imageUrl: string;
     description?: string;
 }
 
-const CategoryCard: React.FC<CategoryCardProps> = ({ title, imageUrl, description }) => {
+const CategoryCard = ({ title, imageUrl, description }: Props) => {
     return (
         <div className="bg-white card w-72 rounded-xl shadow-lg overflow-hidden mx-auto sm:mx-auto lg:mx-0">
             <div className="relative">
