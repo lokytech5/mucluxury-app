@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Hero from './components/Hero'
+import FeaturedProducts from './components/FeaturedProducts'
 
 export default function Home() {
   return (
@@ -70,6 +71,7 @@ export default function Home() {
         {/* Start of Hero Section */}
         <Hero/>
         {/* End of Hero Section */}
+        <FeaturedProducts/>
         
       </div>
       {/* End of Navbar Content */}
