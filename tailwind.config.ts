@@ -19,7 +19,7 @@ const config: Config = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["business"],
+    themes: ["nord"],
   },
 }
 export default config
