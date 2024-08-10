@@ -15,18 +15,10 @@ const promotions = [
   {
     id: 2,
     title: 'New Arrivals',
-    imageUrl: '/images/front2.jpeg',
+    imageUrl: '/images/hairs1.jpeg',
     description: 'Check out the latest additions to our collection.',
     buttonText: 'Explore',
     buttonLink: '/new-arrivals',
-  },
-  {
-    id: 3,
-    title: 'Exclusive Offers',
-    imageUrl: '/images/frontal2.jpeg',
-    description: 'Sign up to get exclusive offers and discounts.',
-    buttonText: 'Sign Up',
-    buttonLink: '/sign-up',
   },
 ];
 

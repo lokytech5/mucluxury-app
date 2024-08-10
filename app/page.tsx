@@ -76,8 +76,8 @@ export default function Home() {
         {/* End of Hero Section */}
         <FeaturedProducts/>
         <CelebritySection />
-        <PromotionsSection />
         <CategoriesSection />
+        <PromotionsSection />
         
       </div>
       {/* End of Navbar Content */}

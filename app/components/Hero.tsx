@@ -6,10 +6,9 @@ const Hero = () => {
     <div className="relative flex flex-col md:flex-row items-center justify-between min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       <div className="absolute inset-0 opacity-80">
         <Image 
-          src="/images/img2.jpg" 
+          src="/images/cloth.jpg" 
           alt="Background Image" 
           layout="fill" 
-          objectFit="cover" 
           quality={100} 
         />
       </div>
@@ -32,13 +31,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative z-10 mt-6 md:mt-0 md:ml-6 lg:ml-12 w-full md:w-1/2">
-        {/* <Image
-          src="/images/img2.jpg"
-          alt="Model Image"
-          height={700}
-          width={500}
-          className="object-cover rounded-lg shadow-2xl"
-        /> */}
+        
       </div>
     </div>
   )
