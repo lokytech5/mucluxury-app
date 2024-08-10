@@ -4,6 +4,7 @@ import FeaturedProducts from './components/FeaturedProducts'
 import CategoriesSection from './components/CategoriesSection'
 import CelebritySection from './components/CelebritySection'
 import PromotionsSection from './components/PromotionsSection'
+import CustomFittingSection from './components/CustomFittingSection'
 
 export default function Home() {
   return (
@@ -78,6 +79,7 @@ export default function Home() {
         <CelebritySection />
         <CategoriesSection />
         <PromotionsSection />
+        <CustomFittingSection/>
         
       </div>
       {/* End of Navbar Content */}

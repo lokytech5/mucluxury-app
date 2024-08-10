@@ -22,10 +22,10 @@ const Hero = () => {
           <span className="font-bold"> premium fabrics</span>, and unparalleled comfort.
         </p>
         <div className="flex space-x-4 animate-bounce">
-          <button className="px-6 py-3 text-lg font-semibold text-black bg-yellow-500 rounded-full shadow-lg hover:bg-yellow-600">
+          <button className="px-6 py-3 text-lg font-semibold text-black bg-yellow-500 rounded-full shadow-lg hover:bg-white">
             Shop Now
           </button>
-          <button className="px-6 py-3 text-lg font-semibold text-black bg-white border-2 border-yellow-500 rounded-full shadow-lg hover:bg-yellow-500 hover:text-white transition duration-300">
+          <button className="px-6 py-3 text-lg font-semibold text-white bg-black border-2 border-white rounded-full shadow-lg hover:bg-yellow-500 hover:text-white transition duration-300">
             Explore
           </button>
         </div>

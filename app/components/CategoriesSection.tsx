@@ -20,7 +20,7 @@ const CategoriesSection = () => {
                             <h2 className="text-xl font-bold mb-2 text-black">#TailoredFit</h2>
                             <p className="text-gray-700">Experience precision and comfort with our tailored design trousers, crafted to perfection.</p>
                             <div className="mt-4 justify-center space-x-4">
-                                <button className="px-6 py-3 bg-black text-white font-semibold rounded-lg">Explore</button>
+                                <button className="px-6 py-3 bg-black text-white font-semibold rounded-full">Explore</button>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const CategoriesSection = () => {
                             <h2 className="card-title text-xl font-bold mb-2">#SmartCasual</h2>
                             <p className="text-white">Explore our exclusive range of shirts, designed for versatility and crafted for comfort.</p>
                             <div className="mt-4 justify-center space-x-4">
-                                <button className="px-6 py-3 bg-black text-white font-semibold rounded-lg">Explore Shirts</button>
+                                <button className="px-6 py-3 bg-black text-white font-semibold rounded-full">Explore Shirts</button>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const CategoriesSection = () => {
             Discover unparalleled craftsmanship and design in every piece. We bring tradition, innovation, and luxury together to create a truly unique style experience.
         </p>
         <div className="mt-4 justify-center space-x-4">
-            <button className="px-6 py-3 bg-black text-white font-semibold rounded-lg">Explore Our Collections</button>
+            <button className="px-6 py-3 bg-black text-white font-semibold rounded-full">Explore Our Collections</button>
         </div>
     </div>
 </div>

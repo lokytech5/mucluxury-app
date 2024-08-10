@@ -12,7 +12,7 @@ const products = [
 
 const FeaturedProducts = () => {
     return (
-        <div className="py-12 bg-base-100">
+        <div className="py-12" style={{ backgroundColor: '#f7f3ef' }}> {/* Use a light beige background */}
             <div className="container mx-auto p-4">
                 <h1 className="text-5xl font-bold text-center mb-12 text-black">Featured Products</h1>
                 <p className="text-center mb-10 text-black">Our new arrivals are built to withstand your activities while keeping you looking your best!</p>
@@ -23,12 +23,14 @@ const FeaturedProducts = () => {
                             name={product.name}
                             price={product.price}
                             imageUrl={product.imageUrl}
-                            
+                            description={product.description}
                         />
                     ))}
                 </div>
                 <div className="flex justify-center mt-10">
-                    <button className="btn btn-outline">See All</button>
+                    <button className="px-8 py-4 bg-yellow-500 text-white font-semibold rounded-full hover:bg-black transition-all text-lg">
+                        See All
+                    </button>
                 </div>
             </div>
         </div>
