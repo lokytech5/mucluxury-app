@@ -1,45 +1,19 @@
-// components/PromotionsSection.tsx
-
 import React from 'react';
-import PromotionCard from './PromotionCard';
-
-const promotions = [
-  {
-    id: 1,
-    title: 'Summer Sale',
-    imageUrl: '/images/closure2.jpeg',
-    description: 'Get up to 50% off on our summer collection.',
-    buttonText: 'Shop Now',
-    buttonLink: '/shop',
-  },
-  {
-    id: 2,
-    title: 'New Arrivals',
-    imageUrl: '/images/hairs1.jpeg',
-    description: 'Check out the latest additions to our collection.',
-    buttonText: 'Explore',
-    buttonLink: '/new-arrivals',
-  },
-];
 
 const PromotionsSection = () => {
   return (
-    <div className="py-12 bg-accent">
-      <div className="container mx-auto p-4">
-        <h1 className="text-5xl font-bold text-center mb-12 text-black">Special Offers</h1>
-        <p className="text-center mb-10 text-black">Don't miss out on our latest promotions and special offers.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {promotions.map((promotion) => (
-            <PromotionCard
-              key={promotion.id}
-              title={promotion.title}
-              imageUrl={promotion.imageUrl}
-              description={promotion.description}
-              buttonText={promotion.buttonText}
-              buttonLink={promotion.buttonLink}
-            />
-          ))}
-        </div>
+    <div className="bg-gradient-to-r from-gray-800 to-gray-600 text-white p-6 rounded-xl shadow-lg flex flex-col md:flex-row items-center max-w-4xl mx-auto">
+      {/* Image Section */}
+      <div className="w-full md:w-1/3 mb-4 md:mb-0">
+        <img src="/images/category3.jpg" alt="Exclusive Collection" className="rounded-xl shadow-lg object-cover h-48 md:h-full w-full"/>
+      </div>
+      
+      {/* Text Section */}
+      <div className="md:ml-8 w-full md:w-2/3 text-center md:text-left">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Exclusive Summer Collection</h2>
+        <p className="text-lg md:text-xl mb-6">Discover the latest trends, crafted with precision for the modern individual.</p>
+        <button className="px-6 py-3 md:px-8 md:py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all text-lg">Shop Now</button>
+        <p className="mt-4 md:mt-6 italic text-sm">Luxury in every detail.</p>
       </div>
     </div>
   );

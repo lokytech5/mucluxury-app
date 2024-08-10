@@ -4,7 +4,7 @@ const CategoriesSection = () => {
     return (
         <div className="py-12 bg-gray-300">
             <div className="container mx-auto p-4 text-center max-w-4xl">
-                <h1 className="text-5xl font-bold mb-4 text-black">Real Designs</h1>
+                <h1 className="text-5xl font-bold mb-4 text-black">Product Category</h1>
                 <p className="mb-10 text-gray-600">
                     By Real Artists for Real People. We’re challenging conventional retail, putting an end to dead stock, unconventional waste, and more.
                 </p>
