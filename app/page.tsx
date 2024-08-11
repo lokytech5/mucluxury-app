@@ -5,6 +5,8 @@ import CategoriesSection from './components/CategoriesSection'
 import CelebritySection from './components/CelebritySection'
 import PromotionsSection from './components/PromotionsSection'
 import CustomFittingSection from './components/CustomFittingSection'
+import { FaUser } from "react-icons/fa";
+
 
 export default function Home() {
   return (
@@ -52,8 +54,8 @@ export default function Home() {
               </div>
               <div className="dropdown dropdown-end">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                  <div className="w-10 rounded-full bg-yellow-300">
-                    <img alt="Profile" src="/images/avatar.svg" />
+                  <div className="w-10  rounded-full">
+                   <FaUser className="h-8 w-8"/>
                   </div>
                 </div>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-primary rounded-box w-52">
