@@ -92,7 +92,8 @@ export default function Home() {
             <a className="cursor-pointer">Home</a>
           </li>
           <li className="text-center">
-            <a className="cursor-pointer">Demo</a>
+
+            <a href='/product' className="cursor-pointer">Product</a>
           </li>
         </ul>
       </div>
