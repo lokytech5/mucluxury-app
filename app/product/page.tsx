@@ -10,7 +10,7 @@ const products = [
 const ProductPage = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
-      {/* Hero Section */}
+      
       <div className="relative overflow-hidden bg-gradient-to-r from-orange-400 via-pink-500 to-red-500 text-white py-16 md:py-28">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
           
