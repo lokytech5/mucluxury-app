@@ -5,6 +5,9 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Providers from './provider'
 import { montserrat, poppins } from './fonts';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Drawer from './components/Drawer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,8 +26,18 @@ export default function RootLayout({
       <body className={montserrat.className}>
         
       <Providers>
-        {children}
 
+      <div className="drawer drawer-end">
+          <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content">
+            <Navbar />
+            <div className="flex-grow">
+              {children}
+            </div>
+            <Footer />
+          </div>
+          <Drawer />
+        </div>
       <ToastContainer />
       </Providers>
 
