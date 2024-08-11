@@ -5,11 +5,13 @@ const Hero = () => {
   return (
     <div className="relative flex flex-col md:flex-row items-center justify-between min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       <div className="absolute inset-0 opacity-80">
-        <Image 
+      <Image 
           src="/images/cloth.jpg" 
           alt="Background Image" 
           layout="fill" 
+          objectFit="cover" // Ensures the image covers the entire area
           quality={100} 
+          priority={true} // Ensures the image loads faster on initial load
         />
       </div>
       <div className="relative z-10 flex flex-col items-start p-8 pt-24 md:pt-12 lg:pt-24 lg:p-24 space-y-8 max-w-lg md:max-w-xl lg:max-w-2xl">
