@@ -4,13 +4,15 @@ import EmblaCarousel from './carousel/EmblaCarousel';
 import { EmblaOptionsType } from 'embla-carousel';
 
 const celebrities = [
-    { id: 3, name: 'Celebrity Three', imageUrl: '/images/img-b1.jpeg', description: 'Rocking our stylish evening dresses.' },
-    { id: 4, name: 'Celebrity Four', imageUrl: '/images/img2.jpeg', description: 'Elegant in our formal wear.' },
-    { id: 5, name: 'Celebrity Five', imageUrl: '/images/img4.jpeg', description: 'Casual chic in our casual wear.' },
-    { id: 6, name: 'Celebrity Six', imageUrl: '/images/img5.jpeg', description: 'Sophisticated in our office wear.' },
-    { id: 2, name: 'Celebrity Two', imageUrl: '/images/img6.jpeg', description: 'Spotted in our trendy winter wear.' },
-    { id: 7, name: 'Celebrity Seven', imageUrl: '/images/img-b2.jpeg', description: 'Stylish in winter wear.' },
-    { id: 7, name: 'Celebrity Seven', imageUrl: '/images/img7.jpeg', description: 'Stylish in winter wear.' },
+    { id: 3, name: 'Celebrity Three', imageUrl: '/images/celebrity6.jpg', description: 'Rocking our stylish custom fit.' },
+    { id: 4, name: 'Celebrity Four', imageUrl: '/images/celebrity8.jpg', description: 'Elegant in our formal wear.' },
+    { id: 5, name: 'Celebrity Five', imageUrl: '/images/celebrity11.jpg', description: 'Casual wear.' },
+    { id: 6, name: 'Celebrity Six', imageUrl: '/images/celebrity4.jpg', description: 'Sophisticated in our office wear.' },
+    { id: 2, name: 'Celebrity Two', imageUrl: '/images/celebrity5.jpg', description: 'Spotted in our trendy wear.' },
+    { id: 7, name: 'Celebrity Seven', imageUrl: '/images/celebrity7.jpg', description: 'Stylish in winter wear.' },
+    { id: 7, name: 'Celebrity Seven', imageUrl: '/images/celebrity9.jpg', description: 'Stylish in winter wear.' },
+    { id: 7, name: 'Celebrity Seven', imageUrl: '/images/celebrity10.jpg', description: 'Sophisticated in our office wear.' },
+    { id: 7, name: 'Celebrity Seven', imageUrl: '/images/celebrity12.jpg', description: 'Stylish custom fit wear.' },
 ];
 
 const OPTIONS: EmblaOptionsType = { loop: true };

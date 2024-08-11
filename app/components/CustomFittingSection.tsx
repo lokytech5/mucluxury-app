@@ -5,7 +5,7 @@ const CustomFittingSection = () => {
     <div className="py-12 bg-blue-50">
       <div className="container mx-auto text-center">
         {/* Headline */}
-        <h2 className="text-5xl font-bold mb-4" style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)' }}>
+        <h2 className="text-5xl font-bold mb-4 text-neutral" style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)' }}>
           Tailored Just for You
         </h2>
         {/* Divider */}
@@ -28,7 +28,7 @@ const CustomFittingSection = () => {
           <p>- Satisfied Client</p>
         </div>
         {/* Call to Action */}
-        <button className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all text-lg">
+        <button className="px-8 py-4 bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-semibold rounded-full hover:bg-orange-600 transition-all text-lg">
           Book Your Custom Fitting Today
         </button>
       </div>

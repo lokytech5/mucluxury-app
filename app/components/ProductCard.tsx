@@ -14,7 +14,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ name, price, imageUrl, descri
         <div className="bg-white card w-72 rounded-xl shadow-lg overflow-hidden mx-auto sm:mx-auto lg:mx-0">
             <div className="relative">
                 <figure>
-                    <Image src={imageUrl} alt={name} width={284} height={200} className="w-full h-48 object-cover" />
+                    <Image src={imageUrl} alt={name} width={284} height={200} className="w-full h-48 object-fit" />
                 </figure>
             </div>
             <div className="p-4 flex flex-col justify-between text-black">

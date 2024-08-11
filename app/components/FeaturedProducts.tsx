@@ -2,12 +2,11 @@ import React from 'react';
 import ProductCard from './ProductCard';
 
 const products = [
-    { id: 1, name: 'Carabiner Set', price: '$12.00', imageUrl: '/images/hairs1.jpeg', limited: false, description: "hello lokosman" },
-    { id: 2, name: 'Jaq Bag', price: '$32.00', imageUrl: '/images/Img1.jpeg', limited: false },
-    { id: 3, name: 'Nanga Sandal', price: '$89.00', imageUrl: '/images/Img1.jpeg', limited: true },
-    { id: 4, name: 'Ponca Thermos', price: '$13.00', imageUrl: '/images/Img1.jpeg', limited: false },
-    { id: 5, name: 'Kamenoko Liner', price: '$120.00', imageUrl: '/images/Img1.jpeg', limited: false },
-    { id: 6, name: 'P.S Cap', price: '$49.00', imageUrl: '/images/Img1.jpeg', limited: true },
+    { id: 1, name: 'Silk Shirt', price: '#25,000', imageUrl: '/images/product1.jpg', limited: false, description: "hello lokosman" },
+    { id: 2, name: 'Chambray Shirt', price: '$30,000', imageUrl: '/images/product2.jpg', limited: false },
+    { id: 3, name: 'Oxford Shirt', price: '#20,000', imageUrl: '/images/product3.jpg', limited: true },
+    { id: 4, name: 'Linear Floral', price: '#15,000', imageUrl: '/images/product4.jpg', limited: false },
+    { id: 5, name: 'Dress Shirt', price: '#17,000', imageUrl: '/images/product5.jpg', limited: false },
 ];
 
 const FeaturedProducts = () => {
@@ -23,13 +22,12 @@ const FeaturedProducts = () => {
                             name={product.name}
                             price={product.price}
                             imageUrl={product.imageUrl}
-                            description={product.description}
                         />
                     ))}
                 </div>
                 <div className="flex justify-center mt-10">
                     <button className="px-8 py-4 bg-yellow-500 text-white font-semibold rounded-full hover:bg-black transition-all text-lg">
-                        See All
+                        More
                     </button>
                 </div>
             </div>

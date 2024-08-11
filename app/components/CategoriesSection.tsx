@@ -14,7 +14,7 @@ const CategoriesSection = () => {
                         <img 
                             src="/images/category2.jpg" 
                             alt="Trouser Category" 
-                            className="w-full object-cover h-48 md:h-80" 
+                            className="w-full object-cover h-64 md:h-80" 
                         />
                         <div className="p-6">
                             <h2 className="text-xl font-bold mb-2 text-black">#TailoredFit</h2>
@@ -43,7 +43,7 @@ const CategoriesSection = () => {
         <h2 className="text-5xl font-bold text-black">
             <span className="underline decoration-wavy decoration-orange-500">EXPERIENCE</span>
         </h2>
-        <h2 className="text-5xl font-bold text-black">
+        <h2 className="mt-2 text-5xl font-bold bg-gradient-to-br from-purple-800 via-pink-600 to-blue-700">
             MUCLUXURY
         </h2>
         <p className="mt-4 text-lg text-gray-700">
