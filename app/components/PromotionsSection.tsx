@@ -1,11 +1,19 @@
 import React from 'react';
+import Image from 'next/image';
 
 const PromotionsSection = () => {
   return (
     <div className="bg-gradient-to-r from-gray-700 to-gray-800 text-white p-6 rounded-xl shadow-lg flex flex-col md:flex-row items-center max-w-4xl mx-auto">
       {/* Image Section */}
       <div className="w-full md:w-1/3 mb-4 md:mb-0">
-        <img src="/images/category3.jpg" alt="Exclusive Collection" className="rounded-xl shadow-lg object-cover h-48 md:h-full w-full"/>
+        <Image 
+          src="/images/category3.jpg" 
+          alt="Exclusive Collection" 
+          layout="responsive"
+          width={200}  // Adjust as needed
+          height={300}  // Adjust as needed
+          className="rounded-xl shadow-lg object-cover"
+        />
       </div>
       
       {/* Text Section */}

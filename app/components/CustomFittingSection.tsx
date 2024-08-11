@@ -24,7 +24,7 @@ const CustomFittingSection = () => {
         </div>
         {/* Testimonials */}
         <div className="text-lg italic text-gray-600 mb-8 mt-4">
-          <p>"The custom fitting service was incredible. My outfit fits perfectly!"</p>
+          <p>&quot;The custom fitting service was incredible. My outfit fits perfectly!&quot;</p>
           <p>- Satisfied Client</p>
         </div>
         {/* Call to Action */}
