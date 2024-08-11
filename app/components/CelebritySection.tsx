@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
 import EmblaCarousel from './carousel/EmblaCarousel';
 import { EmblaOptionsType } from 'embla-carousel';
 
@@ -26,10 +27,12 @@ const CelebritySection = () => {
             
                 <EmblaCarousel slides={celebrities.map((celebrity, index) => (
                     <div className="embla__slide" key={index}>
-                        <img
+                        <Image
                             src={celebrity.imageUrl}
                             alt={celebrity.name}
-                            className="embla__slide__img w-full h-[500px] object-cover rounded-2xl"
+                            width={400}  // Adjust width as needed
+                            height={500}  // Adjust height as needed
+                            className="embla__slide__img w-full object-cover rounded-2xl"
                         />
                         <p className="text-center text-white mt-4">{celebrity.description}</p>
                     </div>

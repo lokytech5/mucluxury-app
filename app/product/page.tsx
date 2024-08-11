@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';  // Import the Next.js Image component
 import ProductCard from '../components/ProductCard';
 
 const products = [
@@ -23,9 +24,11 @@ const ProductPage = () => {
 
           {/* Image Section for Small Screens */}
           <div className="md:hidden w-full flex justify-center mb-10">
-            <img
+            <Image
               src="/images/ad.png"
               alt="Product Hero"
+              width={300} // Adjust these values as necessary
+              height={400} // Adjust these values as necessary
               className="shadow-2xl w-full max-w-xs sm:max-w-sm object-contain"
             />
           </div>
@@ -49,9 +52,11 @@ const ProductPage = () => {
 
           {/* Image Section for Medium and Large Screens */}
           <div className="hidden md:flex md:w-1/2 lg:w-3/5 justify-center items-center animate-float">
-            <img
+            <Image
               src="/images/ad.png"
               alt="Product Hero"
+              width={500} // Adjust these values as necessary
+              height={600} // Adjust these values as necessary
               className="shadow-2xl w-full max-w-md lg:max-w-lg object-contain"
             />
           </div>
